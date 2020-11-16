@@ -146,24 +146,4 @@ header{
 
 /*//////////////// Fin de Galeria ////////////////*/
 
-footer{
-    background-color: rgb(10,9,7);
-    margin-top: 10px;
-    height: 340px;
-    
-}
-#formulario{
-    margin-left: 200px;
-    
-}
-#formulario li{
-    color: #ffffff;
-    margin-top: 10px;
-    
-}
-.boton{
-    
-    margin-left: 250px;
-
-}
 

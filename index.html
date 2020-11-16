@@ -7,7 +7,40 @@
     <link rel="stylesheet" href="estilos.css"> 
     <link rel="shortcut icon" href="imagenes/icono.ico" type="image/x-icon"> <!--Icono de la barra titulo-->
     <title>Zero_Store</title>
-</head>
+
+    <!--Css Interno-->
+    <style>
+      footer{
+         background-color: rgb(10,9,7);
+         margin-top: 10px;
+         height: 345px;
+         box-shadow: 8px 10px 10px rgba(0,0,0,0.5);
+
+}
+      #formulario{
+         margin-left: 200px;
+         border-radius: 15px;
+      }
+      #formulario li{
+         color: #ffffff;
+         margin-top: 5px;
+         margin-bottom: 5px;
+         
+      }
+      input, textarea{
+         border-radius: 8px;
+
+      }
+      .boton{
+         
+         margin-left: 250px;
+
+      }
+
+
+ </style>
+  
+   </head>
 <body>
     <header>
          <div id="logo">
@@ -28,30 +61,36 @@
     </section>
 
     <footer>
-        
+      
             <section id="contacto">
                 <div class="info-contacto">
-                     <table style="margin-left: 150px;text-align: center; margin-bottom:40px;">
+                     <table style="margin-left: 200px;text-align: center; ">
                         <br>
                         
-                        <tr>
-                         <td style="color: #ffffff ;text-align: center;">También podes Contactarnos en Instagran: </td>
-                         <td style="color: #ffffff ;text-align: center;"><a href="https://instagram.com/zero_store.0?igshid=dpw0av0qq8w">zero_store.0</a></td>
-                        </tr>
-                        <tr>
-                           <td style="color: #ffffff"><strong>Contactanos:</strong></td>   
-                        </tr>
-             
+                           <tr>
+                               <td style="color: #ffffff ;text-align: left;">También podes contactarnos en Instagran: </td>
+                               <td style="color: #ffffff ;text-align: left;"><a href="https://instagram.com/zero_store.0?igshid=dpw0av0qq8w">zero_store.0</a></td>
+                           </tr>
+                           <tr>
+                               <td style="color: #ffffff; text-align: left;">Somos de la localidad de Nogoyá Pcia. E.Rios</td>
+                           </tr>
+                           <tr>
+                                 <td style="color: #ffffff"><strong>WhatsApp: </strong> 3435-618811 📲</td>   
+                           </tr>
+                           <tr>
+                              <td style="color: #ffffff"><strong>Contactanos:</strong></td>   
+                           </tr>
+               
                      </table>
                     </div>
                      <div id="formulario">
                         <form method="POST" action="#">
                             
                         <ul>
-                           <li>Nombre:  <input type="text" name="nombre" maxlength="40" required></li>
+                           <li>Nombre:    <input type="text" name="nombre" maxlength="40" required></li>
                            <li>Apellido:  <input type="text" name="apellido" maxlength="50" required></li>
                            <li>Email:     <input type="email" name="correo" maxlength="100" required></li>
-                           <li>Consulta: <textarea name="consulta" rows="3" cols="50" ></textarea></li>
+                           <li>Consulta:  <textarea name="consulta" rows="3" cols="50" ></textarea></li>
                            <span class="boton"><input type="submit"></span>
                   
                         </ul>
