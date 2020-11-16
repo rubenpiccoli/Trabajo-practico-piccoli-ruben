@@ -95,9 +95,75 @@ header{
      
    }
 }
+/* /////////////////// Galeria ////////////////////*/
+#galeria{
+    background-color: rgb(4,4,4);  
+    height: 550px;
+    margin-top: 10px;
+    box-shadow: 8px 10px 10px rgba(0,0,0,0.5);
+
+}
+
+#portada1{
+    background-color:rgb(4,4,4); ;
+    height: 300px;
+    width: 250px;
+    float: left;
+    margin-left: 150px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+#portada2{
+    background-color: rgb(4,4,4); 
+    height: 300px;
+    width: 250px;
+    float: left;
+    margin-left: 150px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+#portada1 img, #portada2 img{
+    width: 100%;
+    border: 3px solid #ffffff;
+}
+
+
+#galeria-fotos{
+    height: 220px;
+    width: 960px;
+    
+}
+#foto1, #foto2, #foto3, #foto4, #foto5{
+    height: 180px;
+    width: 180px;
+    background-color: springgreen;
+    float: left;
+    margin-left: 8px;
+    border: 1px solid #ffffff;
+}
+
+
+
+/*//////////////// Fin de Galeria ////////////////*/
 
 footer{
     background-color: rgb(10,9,7);
     margin-top: 10px;
-    height: 120px;
+    height: 340px;
+    
 }
+#formulario{
+    margin-left: 200px;
+    
+}
+#formulario li{
+    color: #ffffff;
+    margin-top: 10px;
+    
+}
+.boton{
+    
+    margin-left: 250px;
+
+}
+
